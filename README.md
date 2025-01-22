@@ -127,7 +127,7 @@ The input CSV file should have the following columns:
 ```
 .
 ├── app.py                # Main application file
-├── data/                 # Directory to store uploaded data
+├── data/                 # Directory to store generated data
 ├── models/               # Directory to store trained models and scalers
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
