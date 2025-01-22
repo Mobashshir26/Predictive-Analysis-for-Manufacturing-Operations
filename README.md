@@ -4,7 +4,7 @@ This repository contains a FastAPI-based application designed to predict manufac
 
 ## Features
 
-1. **Upload Data**: Upload manufacturing data in CSV format.
+1. **Upload Data**: Upload synthetic manufacturing data in CSV format.
 2. **Train Model**: Train a Random Forest Classifier on the uploaded data, including engineered features for risk assessment.
 3. **Make Predictions**: Predict downtime based on input parameters with confidence scores and risk factors.
 4. **RESTful API**: Interact with the application through API endpoints.
@@ -42,18 +42,18 @@ This repository contains a FastAPI-based application designed to predict manufac
   {
       "message": "Model trained successfully",
       "metrics": {
-          "accuracy": 0.92,
-          "f1_score": 0.91,
-          "precision": 0.93,
-          "recall": 0.90
+          "accuracy": 0.965,
+          "f1_score": 0.961,
+          "precision": 0.966,
+          "recall": 0.905
       },
       "feature_importance": {
-          "Temperature": 0.35,
-          "Run_Time": 0.30,
-          "Machine_ID": 0.20,
-          "Temp_Risk": 0.10,
-          "Runtime_Risk": 0.03,
-          "Combined_Risk": 0.02
+          "Temperature": 0.1258,
+          "Run_Time": 0.2854,
+          "Machine_ID": 0.015,
+          "Temp_Risk": 0.055,
+          "Runtime_Risk": 0.1741,
+          "Combined_Risk": 0.343
       }
   }
   ```
@@ -122,8 +122,6 @@ The input CSV file should have the following columns:
    uvicorn app:app --reload
    ```
 
-4. Access the API documentation at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
-
 ## Project Structure
 
 ```
@@ -135,20 +133,7 @@ The input CSV file should have the following columns:
 └── README.md             # Project documentation
 ```
 
-## Future Enhancements
 
-- Add support for additional machine learning algorithms.
-- Implement logging and monitoring.
-- Extend feature engineering for better prediction accuracy.
-- Integrate a front-end UI for easier interaction.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For questions or collaboration, please reach out to [your-email@example.com](mailto:your-email@example.com).
 
 
 
