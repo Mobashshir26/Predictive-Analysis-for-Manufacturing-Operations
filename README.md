@@ -109,7 +109,7 @@ The input CSV file should have the following columns:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/manufacturing-downtime-api.git
+   git clone https://github.com/Mobashshir26/manufacturing-downtime-api.git
    cd manufacturing-downtime-api
    ```
 
