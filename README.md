@@ -4,7 +4,7 @@ This repository contains a FastAPI-based application designed to predict manufac
 
 ## Features
 
-1. **Upload Data**: Upload synthetic manufacturing data in CSV format.
+1. **Upload Data**: Created a synthetic manufacturing data in CSV format.
 2. **Train Model**: Train a Random Forest Classifier on the uploaded data, including engineered features for risk assessment.
 3. **Make Predictions**: Predict downtime based on input parameters with confidence scores and risk factors.
 4. **RESTful API**: Interact with the application through API endpoints.
