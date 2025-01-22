@@ -1,5 +1,4 @@
-# Predictive-Analysis-for-Manufacturing-Operations
-# Manufacturing Downtime Prediction API
+# Predictive Analysis for Manufacturing Operations
 
 This repository contains a FastAPI-based application designed to predict manufacturing downtime using machine learning. The application supports data upload, model training, and real-time predictions based on engineered risk features.
 
@@ -109,8 +108,8 @@ The input CSV file should have the following columns:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mobashshir26/manufacturing-downtime-api.git
-   cd manufacturing-downtime-api
+   git clone https://github.com/Mobashshir26/Predictive-Analysis-for-Manufacturing-Operations.git
+   cd Predictive-Analysis-for-Manufacturing-Operations
    ```
 
 2. Install dependencies:
@@ -150,4 +149,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 For questions or collaboration, please reach out to [your-email@example.com](mailto:your-email@example.com).
+
+
 
